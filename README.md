@@ -96,6 +96,11 @@ Each experiment in `scripts/EXP-LongForecasting/DLinear/` takes 5min-20min. For 
 As shown in our paper, the weights of DLinear can reveal some charateristic of the data, i.e., the periodicity. We provide the weight visualization of DLinear in `weight_plot.py`. To run the visualization, you need to input the model path (model_name) of DLinear (the model directory in `./checkpoint` by default).
 
 ![image](pics/Visualization.png)
+
+### Note on Exchange Rate Dataset
+It's the collection of the daily exchange rates of eight foreign countries including Australia, British, Canada, Switzerland, China, Japan, New Zealand and Singapore ranging from 1990 to 2016.
+
+
 ## Citing
 
 If you find this repository useful for your work, please consider citing it as follows:
